@@ -33,14 +33,14 @@ docker-compose up
 The SparkUI will be running at `http://${YOUR_DOCKER_HOST}:8082` with one worker listed. To run pyspark, exec into a container:
 
 ```
-docker exec -it dockerspark_master_1 /bin/bash
+docker exec -it ocsparkcluster_master_1 /bin/bash
 bin/pyspark
 ```
 
 To run SparkPi, exec into a container:
 
 ```
-docker exec -it dockerspark_master_1 /bin/bash
+docker exec -it ocsparkcluster_master_1 /bin/bash
 bin/run-example SparkPi 10
 ```
 
