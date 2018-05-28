@@ -1,6 +1,7 @@
 # oc-spark-cluster
-Launch a spark cluster on the latest spark version **with 2 or more nodes**. 
 It is based on https://github.com/gettyimages/docker-spark project 
+The difference is that it allows launching a spark cluster on the latest spark version **`with 2 or more nodes`**, and it gives a Dockerfile that allows to inject your dependencies in the spark **`jars`** folder.  
+
 
 ## spark
 A debian:jessie based Spark container. Use it in a standalone cluster with the accompanying docker-compose.yml, or as a base for more complex recipes.
