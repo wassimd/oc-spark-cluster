@@ -1,5 +1,5 @@
 # oc-spark-cluster
-Launch a spark cluster on the latest spark version with 2 or more nodes. 
+Launch a spark cluster on the latest spark version **with 2 or more nodes**. 
 It is based on https://github.com/gettyimages/docker-spark project 
 
 ## spark
