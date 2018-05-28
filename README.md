@@ -53,6 +53,6 @@ docker-compose scale worker=2
 ### Access the worker or master nodes
 
 ```
-docker exec -ti sparkclusterdocker_master_1 bash
-docker exec -ti sparkclusterdocker_worker_1 bash
+docker exec -ti ocsparkcluster_master_1 bash
+docker exec -ti ocsparkcluster_worker_1  bash
 ```
